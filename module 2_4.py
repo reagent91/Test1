@@ -10,7 +10,7 @@ for i in numbers:
         break
 for i in numbers:
     for j in range(2, i):
-        if i ** 0.5 >= j and i % j == 0:
+        if  i % j == 0:
             is_prime = False
             break
         else:
